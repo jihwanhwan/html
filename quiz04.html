@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul,ol,li{
+            list-style: none;
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+            }
+
+/* ul 기본 스타일 제거 */
+main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 이미지 li */
+main ul li {
+  width: 25%;            /* 한 줄에 4개 */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* 이미지 */
+main ul li img {
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+/* video 영역 */
+main video {
+  width: 40%;
+  max-height: 260px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+section img{
+    float: right;
+    width: 6%;
+}
+
+header h1{text-align: center; color: hotpink; font-style: italic;}
+a{text-decoration: none; color: inherit;}
+nav :first-child{color: green; font-weight: bold;}
+
+</style>
+</head>
+<body>
+    <div id="wrap">
+        
+        <header>
+            <h1>B L O G</h1>
+        </header>
+
+        <hr>
+        <nav>
+            <a href="#none">전체</a>
+            <a href="#none">인테리어</a>
+            <a href="#none">어학</a>
+            <a href="#none">자동차</a>
+            <a href="#none">만화</a>
+        </nav>
+        <hr>
+
+        <main>
+            <ul>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+                <li><img src=".//img/20220709_112404.png" alt=""></li>
+            </ul>
+
+            <video src="./video/58cac677af69c.mp4" controls loop autoplay muted></video>
+
+        </main>
+
+            <a href="">[위로 이동]</a>
+
+        <hr>
+        
+        <section>
+            <img src="./img/28b7660aa852791831960e986056c122.jpg" alt="">
+            <p>id 컴퓨터</p>
+            <h1>겨울 제주도 여행 천백고지 부터 우도맛집 총정리!</h1>
+            <p>안녕하세요!! 제주도 여행 정말 즐거웠습니다. 겨울 제주도 여행을 12월쯤에 다녀 왔습니다..!! 내년에 또 다녀 오겠습니다!!</p>
+
+        </section>
+
+            <a href="">[위로 이동]</a>
+
+        <hr>
+        <footer>
+            copyright
+        </footer>
+
+    </div>
+</body>
+</html>
